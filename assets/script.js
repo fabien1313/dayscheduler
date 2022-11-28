@@ -2,19 +2,6 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-//Hours
-// const nine = document.getElementById('ninehour').textContent;
-// const ten = document.getElementById('tenhour').textContent;
-// const eleven = document.getElementById('elevenhour').textContent;
-// const twelve = document.getElementById('twelvehour').textContent;
-// const one = document.getElementById('onehour').textContent;
-// const two = document.getElementById('twohour').textContent;
-// const three = document.getElementById('threehour').textContent;
-// const four = document.getElementById('fourhour').textContent;
-// const five = document.getElementById('fivehour').textContent;
-
-
-//
 //Buttons
 const btnOne = document.getElementById('btn-1');
 const btnTwo = document.getElementById('btn-2');
@@ -26,18 +13,6 @@ const btnSeven = document.getElementById('btn-7');
 const btnEight = document.getElementById('btn-8');
 const btnNine = document.getElementById('btn-9');
 //
-
-// var currentHour = dayjs().format('hh');
-
-
-
-
-
-
-
-
-
-
 
 
 $(document).ready (function() {
@@ -51,12 +26,10 @@ const three = document.getElementById('threehour').textContent;
 const four = document.getElementById('fourhour').textContent;
 const five = document.getElementById('fivehour').textContent;
 
-  
   var currentTime = dayjs().format('dddd, MMMM D YYYY, hh:mm:ss a');
   $('#currentDay').text(currentTime);
 
   var currentHour = parseInt(dayjs().format('HH'));
-  
 
   if (nine < currentHour) {
     $('#hour_9am').css('background', 'lightgrey')

@@ -1,15 +1,42 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-image: url(images/background.jpg);
+  padding-bottom: 50px;
 }
 
 textarea {
   background: transparent;
-  border: none;
+  border: 2px solid black;
+  border-radius: 15px;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  margin-bottom: 3px;
+}
+
+#background {
+  opacity: .9;
+
+}
+
+p {
+  color: black;
+  font-size: 25px !important;
+}
+
+header {
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-image: url(images/schedulerbackground.jpg);
+}
+
+h1 {
+  font-weight: bold !important;
+  color: #fcfdff;
 }
 
 .hide {
@@ -29,9 +56,13 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #154bed;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-radius: 15px;
+  margin-bottom: 3px;
+  font-weight: bold !important;
+  
 }
 
 .past {
@@ -54,7 +85,9 @@ textarea {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
-  color: white;
+  color: #154bed;
+  margin-bottom: 3px;
+  border-radius: 15px;
 }
 
 .saveBtn i:hover {

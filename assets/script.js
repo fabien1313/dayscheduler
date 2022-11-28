@@ -34,73 +34,73 @@ const five = document.getElementById('fivehour').textContent;
   if (nine < currentHour) {
     $('#hour_9am').css('background', 'lightgrey')
   } else if (nine == currentHour) {
-    $('#hour_9am').css('background', 'red')
+    $('#hour_9am').css('background', '#ff6961')
   } else if (nine > currentHour) {
-    $('#hour_9am').css('background', 'green')
+    $('#hour_9am').css('background', 'lightgreen')
   }
   
   if (ten < currentHour) {
     $('#hour_10am').css('background', 'lightgrey')
   } else if (ten == currentHour) {
-    $('#hour_10am').css('background', 'red')
+    $('#hour_10am').css('background', '#ff6961')
   } else if (ten > currentHour) {
-    $('#hour_10am').css('background', "green")
+    $('#hour_10am').css('background', "lightgreen")
   }
 
   if (eleven < currentHour) {
     $('#hour_11am').css('background', 'lightgrey')
   } else if (eleven == currentHour) {
-    $('#hour_11am').css('background', 'red')
+    $('#hour_11am').css('background', '#ff6961')
   } else if (eleven > currentHour) {
-    $('#hour_11am').css('background', 'green')
+    $('#hour_11am').css('background', 'lightgreen')
   }
 
   if (twelve < currentHour) {
     $('#hour_12am').css('background', 'lightgrey')
   } else if (twelve == currentHour) {
-    $('#hour_12am').css('background', 'red')
+    $('#hour_12am').css('background', '#ff6961')
   } else if (twelve > currentHour) {
-    $('#hour_12am').css('background', 'green')
+    $('#hour_12am').css('background', 'lightgreen')
   }
 
   if (one < currentHour) {
     $('#hour_1pm').css('background', 'lightgrey')
   } else if (one == currentHour) {
-    $('#hour_1pm').css('background', 'red')
+    $('#hour_1pm').css('background', '#ff6961')
   } else if (one > currentHour) {
-    $('#hour_1pm').css('background', 'green')
+    $('#hour_1pm').css('background', 'lightgreen')
   }
 
   if (two < currentHour) {
     $('#hour_2pm').css('background', 'lightgrey')
   } else if (two == currentHour) {
-    $('#hour_2pm').css('background', 'red')
+    $('#hour_2pm').css('background', '#ff6961')
   } else if (two > currentHour) {
-    $('#hour_2pm').css('background', 'green')
+    $('#hour_2pm').css('background', 'lightgreen')
   }
 
   if (three < currentHour) {
     $('#hour_3pm').css('background', 'lightgrey')
   } else if (three == currentHour) {
-    $('#hour_3pm').css('background', 'red')
+    $('#hour_3pm').css('background', '#ff6961')
   } else if (three > currentHour) {
-    $('#hour_3pm').css('background', 'green')
+    $('#hour_3pm').css('background', 'lightgreen')
   }
 
   if (four < currentHour) {
     $('#hour_4pm').css('background', 'lightgrey')
   } else if (four == currentHour) {
-    $('#hour_4pm').css('background', 'red')
+    $('#hour_4pm').css('background', '#ff6961')
   } else if (four > currentHour) {
-    $('#hour_4pm').css('background', 'green')
+    $('#hour_4pm').css('background', 'lightgreen')
   }
 
   if (five < currentHour) {
     $('#hour_5pm').css('background', 'lightgrey')
   } else if (five == currentHour) {
-    $('#hour_5pm').css('background', 'red')
+    $('#hour_5pm').css('background', '#ff6961')
   } else if (five > currentHour) {
-    $('#hour_5pm').css('background', 'green')
+    $('#hour_5pm').css('background', 'lightgreen')
   }
   
 

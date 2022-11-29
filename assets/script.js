@@ -98,10 +98,78 @@ const five = document.getElementById('fivehour').textContent;
   }
 });
 
-$('.saveBtn').on('click', function () {
-  //Create a variable for user's input with a value method.
-    var userInput = $(this).siblings('.description').val();
-  //Create a variable to identify the div-location of that user's input.
-     var hours = $(this).parent().attr('id');
-     localStorage.setItem(userInput, hours);
+
+textboxone.textContent = localStorage.getItem('9am')
+btnOne.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyOne = document.getElementById('textboxone').value;
+  localStorage.setItem('9am', keyOne);
 });
+
+textboxtwo.textContent = localStorage.getItem('10am')
+btnTwo.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyTwo = document.getElementById('textboxtwo').value;
+  localStorage.setItem('10am', keyTwo);
+});
+
+textboxthree.textContent = localStorage.getItem('11am')
+btnThree.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyThree = document.getElementById('textboxthree').value;
+  localStorage.setItem('11am', keyThree);
+});
+
+textboxfour.textContent = localStorage.getItem('12am')
+btnFour.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyFour = document.getElementById('textboxfour').value;
+  localStorage.setItem('12am', keyFour);
+});
+
+textboxfive.textContent = localStorage.getItem('1pm')
+btnFive.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyFive = document.getElementById('textboxfive').value;
+  localStorage.setItem('1pm', keyFive);
+});
+
+textboxsix.textContent = localStorage.getItem('2pm')
+btnSix.addEventListener('click', function(e){
+  e.preventDefault();
+  var keySix = document.getElementById('textboxsix').value;
+  localStorage.setItem('2pm', keySix);
+});
+
+textboxseven.textContent = localStorage.getItem('3pm')
+btnSeven.addEventListener('click', function(e){
+  e.preventDefault();
+  var keySeven = document.getElementById('textboxseven').value;
+  localStorage.setItem('3pm', keySeven);
+});
+
+textboxeight.textContent = localStorage.getItem('4pm')
+btnEight.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyEight = document.getElementById('textboxeight').value;
+  localStorage.setItem('4pm', keyEight);
+});
+
+textboxnine.textContent = localStorage.getItem('5pm')
+btnNine.addEventListener('click', function(e){
+  e.preventDefault();
+  var keyNine = document.getElementById('textboxnine').value;
+  localStorage.setItem('5pm', keyNine);
+});
+
+
+
+
+// $('.saveBtn').on('click', function () {
+//   //Create a variable for user's input with a value method.
+//     var userInput = $(this).siblings('.description').val();
+//   //Create a variable to identify the div-location of that user's input.
+//      var hours = $(this).parent().attr('id');
+//      localStorage.setItem(userInput, hours);
+// });
+

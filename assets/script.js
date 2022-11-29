@@ -23,8 +23,7 @@ const five = document.getElementById('fivehour').textContent;
   var currentTime = dayjs().format('dddd, MMMM D YYYY, hh:mm:ss a');
   $('#currentDay').text(currentTime);
 
-  var currentHour = 18;
-  //parseInt(dayjs().format('HH'));
+  var currentHour = parseInt(dayjs().format('HH'));
 
   if (nine < currentHour) {
     $('#hour_9am').css('background', 'lightgrey')

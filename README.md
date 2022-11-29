@@ -11,7 +11,7 @@ Localstorage has also been implemented so you can insert comments and save them 
 - HTML  
 - CSS
 - JavaScript 
--Jquery
+- Jquery
 
 ## Credits
 
@@ -19,7 +19,7 @@ Localstorage has also been implemented so you can insert comments and save them 
 - Background and heading photo by https://unsplash.com/@vackground 
 
 ## Screenshots (Deployable Page Link)
-Deployed page: https://fabien1313.github.io/codequiz/
+Deployed page: https://fabien1313.github.io/dayscheduler/
 
 ![](assets/images/display1.png)
 ![](assets/images/display2.png)

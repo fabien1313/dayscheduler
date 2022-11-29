@@ -161,15 +161,3 @@ btnNine.addEventListener('click', function(e){
   var keyNine = document.getElementById('textboxnine').value;
   localStorage.setItem('5pm', keyNine);
 });
-
-
-
-
-// $('.saveBtn').on('click', function () {
-//   //Create a variable for user's input with a value method.
-//     var userInput = $(this).siblings('.description').val();
-//   //Create a variable to identify the div-location of that user's input.
-//      var hours = $(this).parent().attr('id');
-//      localStorage.setItem(userInput, hours);
-// });
-
